@@ -1,0 +1,2 @@
+ls > newlist &&
+sed -i '/newlist/d' newlist
