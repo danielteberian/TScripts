@@ -8,6 +8,8 @@ listdrivestofile - Lists all drives and partitions that are currently available,
 
 listtofile - Creates a text file, in the current directory, with a list of everything in the current directory (minus the list, itself).
 
+showpath - Prints the current value of the $PATH variable.
+
 tarcreate - Creates a tar archive. You must supply the actual directory that you want to be included, followed by the filename for the new archive.
 
 tarcreate - Creates a tar archive (just like "tarcreate"), using GZip2.
