@@ -20,3 +20,8 @@ testnetworkcon - Tests your network connection. This test will continue to run u
 WIP Scripts:
 
 
+
+
+To-do:
+
+Update README: compilerinfo-gcc, compilerinfo-g++, compilerinfo-meson, compilerinfo-ninja, compilerinfo-cmake.
