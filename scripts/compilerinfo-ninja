@@ -1,0 +1,2 @@
+echo "If Ninja has been installed, its version should be printed after this message: " &&
+ninja --version

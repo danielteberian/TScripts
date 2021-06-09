@@ -1,0 +1,2 @@
+echo "If G++ has been installed, its version will be printed after this message: " &&
+g++ --version

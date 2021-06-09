@@ -1,0 +1,2 @@
+echo "If Meson has been installed, the installed version should be displayed after this message: " &&
+meson --version

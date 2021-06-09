@@ -1,0 +1,2 @@
+echo "If GCC is properly installed, the version should be printed below:" &&
+gcc --version

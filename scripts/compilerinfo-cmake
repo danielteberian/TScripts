@@ -1,0 +1,2 @@
+echo "If CMake has been installed, its version should be printed after this message: " &&
+cmake --version
