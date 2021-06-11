@@ -1,0 +1,2 @@
+echo "If autoconf has been installed, its version will be displayed after this message: " &&
+autoconf --version

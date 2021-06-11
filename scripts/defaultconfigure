@@ -1,0 +1,5 @@
+#If you store binaries/libraries in a different path (such as /usr/local/), then edit this script, and replace the value for $DEFAULT_CONFIGURE with whatever prefix you would like to use.
+#If you edit the $DEFAULT_CONFIGURE variable, the rest of the script should adapt to the new value of said variable.
+export DEFAULT_CONFIGURE=/usr &&
+echo "TScripts: Configuring this package, using $DEFAULT_CONFIGURE as the prefix." &&
+./configure --prefix=$DEFAULT_CONFIGURE

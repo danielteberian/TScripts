@@ -1,0 +1,2 @@
+echo "If Clang has been installed, its version will be displayed after this message: " &&
+clang --version

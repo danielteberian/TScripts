@@ -1,0 +1,7 @@
+#If you store binaries/libraries in a different path (such as /usr/local/), then edit this script, and replace the value for $DEFAULT_CONFIGURE with whatever prefix you would like to use.
+#If you edit the $DEFAULT_CONFIGURE variable, the rest of the script should adapt to the new value of said variable.
+export DEFAULT_CMAKE_PREFIX=/usr &&
+echo "TScripts: Configuring this package, using $DEFAULT_CMAKE_PREFIX as the prefix." &&
+mkdir cmakebld &&
+cd cmakebld &&
+cmake -DCMAKE_INSTALL_PREFIX=$DEFAULT_CMAKE_PREFIX -DCMAKE_BUILD_TYPE=Release
