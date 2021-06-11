@@ -24,4 +24,4 @@ WIP Scripts:
 
 To-do:
 
-Update README: compilerinfo-gcc, compilerinfo-g++, compilerinfo-meson, compilerinfo-ninja, compilerinfo-cmake, verifytorcon.
+Update README: compilerinfo-gcc, compilerinfo-g++, compilerinfo-meson, compilerinfo-ninja, compilerinfo-cmake, verifytorcon, defaultconfigure, defaultcmake.
