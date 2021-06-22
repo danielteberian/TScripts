@@ -1,0 +1,4 @@
+perl Makefile.PL &&
+make &&
+make test &&
+echo "If the test suite was executed successfully, all you need to do is execute the 'make install' command!"
